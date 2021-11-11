@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("digital-7.ttf");
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body
+{
+    background-color: #fff;
+    font-family: "CustomFont";
+}
+#clock
+{
+    padding: 30px;
+    background-color: #2f94e4;
+    width: 70%;
+    margin: auto;
+    columns: #fff;
+    font-size: 100px;
+    letter-spacing: 5px;
+    box-shadow: 1px 2px 13px #5081a8,1px 2px 13px #57a0db,1px 2px 13px #0c3252;
+}
+.alarm-container
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+    box-shadow: 1px 2px 13px #5081a8,1px 2px 13px #57a0db,1px 2px 13px #0c3252;
+}
+.alarm-container h3
+{
+    font-size: 43px;
+    letter-spacing: normal;
+    color: #2f94e4;
+}
+.alarm-item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.alarm-item div select
+{
+    height: 40px;
+    width: 80px;
+    font-size: 22px;
+}
+.buttonHolder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background: #fff;
+    margin: auto;
+    box-shadow: 1px 2px 13px #5081a8,1px 2px 13px #57a0db,1px 2px 13px #0c3252;
+}
+.buttonHolder div
+{
+    width: 120px;
+    display: block;
+    padding: 20px;
+    margin: 2px 3px;
+    padding: 20px 0;
+}
+.buttonHolder div button
+{
+    width: inherit;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid black;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.buttonHolder div:nth-child(1) button,
+.buttonHolder div:nth-child(2) button:hover
+{
+    background: #2f94e4;
+    color: #fff;
+
+}
+.buttonHolder div:nth-child(1) button:hover
+{
+    background: #fff;
+    color: #2f94e4;
+}
